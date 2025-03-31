@@ -41,7 +41,7 @@ Pingaus kun verkkoa ei ole :
 
 Verkko saadaan takaisin painamalla uudestaan "Wired"
 
-Koneen saa myös otettua verkosta pois käyttäen virtualboxin omaa devices -> Network -> Connect Network Adapter. 
+Koneen saa myös verkosta pois tai päälle käyttäen virtualboxin omaa Devices -> Network -> Connect Network Adapter. 
 
 ![image](https://github.com/user-attachments/assets/a629b838-e44c-41ec-b5a4-73bc0e680b3a)
 
