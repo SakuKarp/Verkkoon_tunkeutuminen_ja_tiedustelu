@@ -21,7 +21,7 @@ Kuva näyttää yhteyden verkkoon.
 
 ![image](https://github.com/user-attachments/assets/b5831ae9-3cc1-462a-a49b-70309c56ffc4)
 
-Yksinkertaisesti painamalla "Wired" saadaan virtuaalibox pois verkosta.
+Yksinkertaisesti painamalla "Wired" saadaan virtuaalikone pois verkosta.
 
 ![image](https://github.com/user-attachments/assets/046f73dc-a9d2-430c-b2cb-4904589ae3b9)
 
@@ -31,6 +31,11 @@ Pingaus kun verkkoa ei ole :
 ![image](https://github.com/user-attachments/assets/c7be18c4-eeb0-4466-b131-f35c387ce04e)
 
 Verkko saadaan takaisin painamalla uudestaan "Wired"
+
+Koneen saa myös otettua verkosta pois käyttäen virtualboxin omaa devices -> Network -> Connect Network Adapter. 
+
+![image](https://github.com/user-attachments/assets/a629b838-e44c-41ec-b5a4-73bc0e680b3a)
+
 
 
 # c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta).
