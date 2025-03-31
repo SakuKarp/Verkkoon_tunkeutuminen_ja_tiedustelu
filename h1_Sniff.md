@@ -55,7 +55,8 @@ Alotiin asentamalla wiresharkin käyttämällä komentoa :
 
 Wiresharkin Gui:
 
-![image](https://github.com/user-attachments/assets/86a30eb5-f034-49f6-abd2-d214fb970d49)
+![image](https://github.com/user-attachments/assets/9a14c09e-80a2-464a-b0a8-e2147fa21098)
+
 
 Aloitin sieppaamaan liikennettä painamalla sinistä "hain" kuvaa.
 
