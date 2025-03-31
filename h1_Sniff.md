@@ -4,7 +4,16 @@
 
 Karvinen 2025: Wireshark - Getting Started
 
+- Wiresharkin asennus
+- Wiresharkin käyttö
+- Verkon sieppaaminen
+- Display filtterit
+
 Karvinen 2025: Network Interface Names on Linux
+
+- Verkon käyttöliittymän käyttöä
+- Verkon eri käyttöliittymien tarkoitukset
+- Oman käyttöliittymän tarkastelu
 
 # a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. Jos on mitään haasteita, tee täsmällinen raportti)
 
@@ -74,3 +83,14 @@ Huonoja uutisia: yhteys on suojattu TLS-salauksella.
 
 ## References
 
+https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#h1-sniff
+
+https://terokarvinen.com/2021/install-debian-on-virtualbox/
+
+https://terokarvinen.com/network-interface-linux/
+
+https://terokarvinen.com/wireshark-getting-started/
+
+https://en.wikipedia.org/wiki/Internet_protocol_suite
+
+https://tracker.debian.org/pkg/wireshark
