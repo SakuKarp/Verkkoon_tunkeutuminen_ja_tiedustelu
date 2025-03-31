@@ -44,6 +44,21 @@ Alotiin asentamalla wiresharkin käyttämällä komentoa :
 
     sudo apt-get install wireshark
 
+Wiresharkin Gui:
+
+![image](https://github.com/user-attachments/assets/86a30eb5-f034-49f6-abd2-d214fb970d49)
+
+Aloitin sieppaamaan liikennettä painamalla sinistä "hain" kuvaa.
+
+![image](https://github.com/user-attachments/assets/fcd6c03f-64e5-48b6-80a7-de8bb160a64e)
+
+Kuvaa liikenteen seuraamisesta. 
+
+![image](https://github.com/user-attachments/assets/20082a6f-49e6-4e0a-a581-d9933b15a1e1)
+
+
+
+
 # d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta.
 
 # e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
