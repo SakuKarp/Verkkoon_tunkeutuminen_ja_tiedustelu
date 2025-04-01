@@ -121,8 +121,22 @@ Sieppauksen kesto / aika:
 
 # g) Minkä merkkinen verkkokortti käyttäjällä on? surfing-secure.pcap
 
-# h) Millä weppipalvelimella käyttäjä on surffaillut? surfing-secure.pcap
-Huonoja uutisia: yhteys on suojattu TLS-salauksella.
+Verkkokortti löytyi Ethernet osioista: RealtekU
+
+![image](https://github.com/user-attachments/assets/9d746f33-2db8-4219-86bf-e4191a34dd00)
+
+
+# h) Millä weppipalvelimella käyttäjä on surffaillut? surfing-secure.pcap Huonoja uutisia: yhteys on suojattu TLS-salauksella.
+
+Filtteröin kaappauksen dns mukaan joka näyttää:
+
+![image](https://github.com/user-attachments/assets/0d91ff38-41de-4287-ad04-6bf828a3686f)
+
+Sivustot joilla on käyty on :
+google.com
+terokarvinen.com
+goatcounter.netlify.com
+
 
 # i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
