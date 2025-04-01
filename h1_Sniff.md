@@ -151,8 +151,11 @@ Paketti 87 on DNS-kysely, joka lähetetään udp-protokollalla:
 ![image](https://github.com/user-attachments/assets/ccfd4345-402c-457b-8720-fdd5535fc195)
 
 Lähdeosoite: PcsCompu_da:f2:73 (08:00:27:da:f2:73)
+
 Kohdeosoite RealtekU_12:35:02 (52:54:00:12:35:02)
+
 Versio: 4 (ipv4)
+
 Protokolla: UDP
 
 
