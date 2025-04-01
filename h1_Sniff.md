@@ -114,7 +114,6 @@ Sieppauksen kesto / aika:
 
 
 
-# f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)
 
 
 
