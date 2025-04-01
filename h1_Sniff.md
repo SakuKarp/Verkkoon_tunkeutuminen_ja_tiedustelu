@@ -71,6 +71,40 @@ Kuvaa liikenteen seuraamisesta.
 
 # d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta.
 
+Kuva siepatusta paketista:
+
+![image](https://github.com/user-attachments/assets/facbb97c-babd-40e0-b112-151131d2ec9b)
+
+Network access / link layer
+
+1. Lähde ja kohde mac osoitteet: 
+
+![image](https://github.com/user-attachments/assets/859b1780-b0b2-404d-b306-6196f8f69c78)
+
+
+Kuvassa näkyy MAC-osoitteet ja ethernet tyyppi ipv4
+
+2. Internet layer:
+
+![image](https://github.com/user-attachments/assets/42b0ffde-82e9-4aa0-a526-d9fe4ec5dd84)
+
+Kuvassa näkyy lähde ja kohde ip
+
+
+3. Transport layer:
+
+![image](https://github.com/user-attachments/assets/2c119af5-c7a3-4b4d-88f5-a1882c2fb577)
+
+Kuvassa on lähdeportti, kohdeportti, sekvenssinumerot ja ACK-tiedot.
+
+4. Application layer
+
+![image](https://github.com/user-attachments/assets/fdbedf71-1709-4946-9cbf-71337bf0f1f4)
+
+Kuvassa näkyy Protokolla ja tila (HTTP/1.1 200 OK), palvelin, pvm 
+
+
+
 # e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
 
 # f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)
