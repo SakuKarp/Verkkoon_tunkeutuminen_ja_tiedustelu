@@ -75,9 +75,8 @@ Kuva siepatusta paketista:
 
 ![image](https://github.com/user-attachments/assets/facbb97c-babd-40e0-b112-151131d2ec9b)
 
-Network access / link layer
+1. Network access / link layer
 
-1. Lähde ja kohde mac osoitteet: 
 
 ![image](https://github.com/user-attachments/assets/859b1780-b0b2-404d-b306-6196f8f69c78)
 
