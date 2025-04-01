@@ -140,6 +140,23 @@ goatcounter.netlify.com
 
 # i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
+Aloitin sieppaamisen ja paketteja tuli 296. Aika oli 5.6 sekunttia.
+
+Valitsin kohdan jossa avaan githubin:
+
+![image](https://github.com/user-attachments/assets/a6536696-b841-4ec0-8e04-d2634b3ac5bf)
+
+Paketti 87 on DNS-kysely, joka lähetetään udp-protokollalla:
+
+![image](https://github.com/user-attachments/assets/ccfd4345-402c-457b-8720-fdd5535fc195)
+
+Lähdeosoite: PcsCompu_da:f2:73 (08:00:27:da:f2:73)
+Kohdeosoite RealtekU_12:35:02 (52:54:00:12:35:02)
+Versio: 4 (ipv4)
+Protokolla: UDP
+
+
+
 ## References
 
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#h1-sniff
