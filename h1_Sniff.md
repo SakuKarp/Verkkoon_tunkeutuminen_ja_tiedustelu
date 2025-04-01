@@ -107,6 +107,10 @@ Kuvassa näkyy Protokolla ja tila (HTTP/1.1 200 OK), palvelin, pvm
 
 # e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
 
+Avasin surfing-secure.pcapin ihan vain lataamalla sen Teron sivulta ja vetämällä sen wiresharkkiin.
+
+
+
 # f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)
 
 # g) Minkä merkkinen verkkokortti käyttäjällä on? surfing-secure.pcap
