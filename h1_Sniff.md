@@ -132,8 +132,11 @@ Filtteröin kaappauksen dns mukaan joka näyttää:
 ![image](https://github.com/user-attachments/assets/0d91ff38-41de-4287-ad04-6bf828a3686f)
 
 Sivustot joilla on käyty on :
+
 google.com
+
 terokarvinen.com
+
 goatcounter.netlify.com
 
 
