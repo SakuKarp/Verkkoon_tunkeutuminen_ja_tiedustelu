@@ -71,15 +71,31 @@ Sieltä löytyi rivejä joissa esintyy "Nmap Scripting Engine" user agent. Nmap 
 
 Erisäännöillä joilla voisi luke lokia olisi esim. ip osoitteen kohdistaminen tai epätavallisten porttien etsiminen.
 
-
-
-
-
-
 # e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. 
 Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
 
+Aloitin avaamalla wiresharkin jonka jälkeen nmappasin portti 80 local hostin.
+
+        sudo nmap -A -p 80 localhost
+
+Kuva kun suodatetaan "nmap" eli käytetään filtterinä: frame contains "Nmap"
+
+![image](https://github.com/user-attachments/assets/49f6ac93-6c75-426d-9a89-8b795284eeeb)
+
+Nmap on käytetty palvelimen skannaamiseen HTTP:n kautta. Lähde- ja kohde osoite on sama eli skannaus tehty paikallisesti.
+
 # f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".
+
+Aloitin asentamalla ngrepin jonka jälkeen ngreppasin hakusanalla nmap. Spammasin muutaman kerran nmappia local hostiin jotta saadaan tietoa ulos.
+
+        sudo apt-get install ngrep
+        sudo ngrep -d lo -i nmap # -d lo määrittää että sieppaus tapahtuu verkkokortilla local host ja -i ei erottele isoja ja pieniä kirjaimia
+
+![image](https://github.com/user-attachments/assets/51e09c87-a400-4a88-b6a6-71af4f58148d)
+
+Kuvasta näkyy 338 saatu ja 25 oli "nmap".
+
+
 
 # g) Agentti. Vaihda nmap:n user-agent niin, että se näyttää tavalliselta weppiselaimelta.
 
