@@ -110,7 +110,9 @@ https://www.oreilly.com/library/view/nmap-network-exploration/9781786467454/62ae
 
         nmap -p80 --script http-sqli-finder --script-args http.useragent="Mozilla 42" <localhost> 
 
-Yritin kauan tätä mutta en saanut haluttua vastausta wiresharkin puolelta joten jatkan myöhemmin...
+En saanut tätä toimimaan joten testasin teron antamaa :
+
+        --script-args http.useragent="BSD experimental on XBox350 alpha (emulated on Nokia 3110)"
 
 
 
