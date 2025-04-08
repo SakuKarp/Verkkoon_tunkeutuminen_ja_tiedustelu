@@ -50,6 +50,13 @@ Alotin asentamalla nmapin, jonka jälkeen suoritin porttiskannauksen:
 
 # c) Skriptit. Mitkä skriptit olivat automaattisesti päällä, kun käytit "-A" parametria? (Näkyy avoimien porttinumeroiden alta, http-blah, http-blöh...).
 
+![image](https://github.com/user-attachments/assets/22711b76-42e2-4fe4-9df7-55f157e7e798)
+
+http-server-header hakee palvelimen version
+
+http-title hakee HTML-sivuston <title> elementin
+
+
 # d) Jäljet lokissa. Etsi weppipalvelimen lokeista jäljet porttiskannauksesta (NSE eli Nmap Scripting Engine -skripteistä skannauksessa). Löydätkö sanan "nmap" isolla tai pienellä? Selitä osumat. 
 Millaisilla hauilla tai säännöillä voisit tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että et pysty lukemaan itse kaikkia rivejä?
 
