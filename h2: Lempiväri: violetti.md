@@ -1,4 +1,4 @@
-x) Lue ja vastaa lyhyesti kysymyksiin.
+# x) Lue ja vastaa lyhyesti kysymyksiin.
 
 1. Selitä tuskan pyramidi
 
