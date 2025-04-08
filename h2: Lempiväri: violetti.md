@@ -57,8 +57,24 @@ http-server-header hakee palvelimen version
 http-title hakee HTML-sivuston <title> elementin
 
 
-# d) Jäljet lokissa. Etsi weppipalvelimen lokeista jäljet porttiskannauksesta (NSE eli Nmap Scripting Engine -skripteistä skannauksessa). Löydätkö sanan "nmap" isolla tai pienellä? Selitä osumat. 
-Millaisilla hauilla tai säännöillä voisit tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että et pysty lukemaan itse kaikkia rivejä?
+# d) Jäljet lokissa. Etsi weppipalvelimen lokeista jäljet porttiskannauksesta (NSE eli Nmap Scripting Engine -skripteistä skannauksessa). Löydätkö sanan "nmap" isolla tai pienellä? Selitä osumat. Millaisilla hauilla tai säännöillä voisit tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että et pysty lukemaan itse kaikkia rivejä?
+
+Aloitin tehtävän greppaamalla sanan "nmap" /var/log/apache2/access.log loki tiedostosta.
+
+        sudo grep -i nmap /var/log/apache2/acess.log # -i ei erottele isoja ja pieniä kirjaimia
+
+![image](https://github.com/user-attachments/assets/cc411fe9-8003-4573-ba24-ceed2e3baea5)
+
+Sieltä löytyi rivejä joissa esintyy "Nmap Scripting Engine" user agent. Nmap on siis käyttänyt skriptejä tehdä HTTP-pyyntöjä palvelimelle osana skannausta.
+
+        sudo gerp - i "Nmap Scripting Engine" /var/log/apache2/access.log # voi etsiä user agentit
+
+Erisäännöillä joilla voisi luke lokia olisi esim. ip osoitteen kohdistaminen tai epätavallisten porttien etsiminen.
+
+
+
+
+
 
 # e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. 
 Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
