@@ -22,15 +22,31 @@ Rivi:
 
 ![image](https://github.com/user-attachments/assets/db2c9eea-eb43-4737-8dfc-23b315f643d2)
 
-Ip osoite, aikaleima, HTTP-pyyntö, HTTP-vastauskoodi:200 OK, 3380 vastauksen koko, Selain Firefox 128 ja käyttis, Linux x86_64
+- Ip osoite
+- aikaleima
+- HTTP-pyyntö
+- HTTP-vastauskoodi:200 OK
+- 3380 vastauksen koko
+- Selain: Firefox 128
+- käyttis: Linux x86_64
 
-
-
-
-
-    
 
 # b) Nmapped. Porttiskannaa oma weppipalvelimesi käyttäen localhost-osoitetta ja 'nmap -A' päällä. Selitä tulokset. (Pelkkä http-portti 80/tcp riittää)
+
+Alotin asentamalla nmapin, jonka jälkeen suoritin porttiskannauksen:
+
+        sudo apt-get install nmap # asentaa
+        sudo nmap -A -p 80 localhost # -A Agressiivinen/isompi skannaus, -p 80 Skannaa vain portin 80 ja localhost eli kohteena oma kone.
+
+
+![image](https://github.com/user-attachments/assets/9919de1f-7aca-4392-a20e-f2c0289dc5ee)
+
+
+- Hosti on päällä ja vastasi nopeasti
+- 80/tcp open eli portti 80 on auki
+- HTTP-palvelimena toimii Apache, versio 2.4.62, Debian-versio
+- Palvelin versio Apache/2.4.62
+- Varoitus siitä että vain yksi portti on skannattu mikä saattaa johtaa epätarkkaan tunnistukseen.
 
 # c) Skriptit. Mitkä skriptit olivat automaattisesti päällä, kun käytit "-A" parametria? (Näkyy avoimien porttinumeroiden alta, http-blah, http-blöh...).
 
