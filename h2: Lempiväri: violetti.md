@@ -22,7 +22,7 @@ Rivi:
 
 ![image](https://github.com/user-attachments/assets/db2c9eea-eb43-4737-8dfc-23b315f643d2)
 
-Ip osoite, aikaleima, HTTP-pyyntö, HTTP-vastauskoodi:200 OK, 3380 vastauksen koko, Selain mozilla ja käyttis Firefox 128, Linux x86_64
+Ip osoite, aikaleima, HTTP-pyyntö, HTTP-vastauskoodi:200 OK, 3380 vastauksen koko, Selain Firefox 128 ja käyttis, Linux x86_64
 
 
 
