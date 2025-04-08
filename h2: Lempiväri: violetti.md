@@ -112,19 +112,30 @@ https://www.oreilly.com/library/view/nmap-network-exploration/9781786467454/62ae
 
 En saanut tätä toimimaan joten testasin teron antamaa :
 
-        --script-args http.useragent="BSD experimental on XBox350 alpha (emulated on Nokia 3110)"
+        sudo nmap -A --script-args http.useragent="BSD experimental on XBox350 alpha (emulated on Nokia 3110)"
+
+Tämän jälkeen katsoin catilla lokit ja siellä näkyi että user-agent on vaihtunut.
+
+![image](https://github.com/user-attachments/assets/61e30428-73dd-44bf-8524-4b35315a46bf)
 
 
+# h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella.
 
+Huomasin että lokit olivat hiaman muuttuneet mutta siellä silti näkyi vielä nämä kaksi:
 
+![image](https://github.com/user-attachments/assets/53d15b94-340c-46bf-a9e3-f783edbd38e2)
 
-# h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella. Tarkastele sekä Apachen lokia että siepattua verkkoliikennettä. Mikä on muuttunut, kun vaihdoit user-agent:n? Löytyykö lokista edelleen tekstijono "nmap"?
 
 # i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. 
 (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
 
-# j) Vapaaehtoinen, vaikea: Invisible, invincible. Etsi jokin toinen nmap:n skripti, jonka verkkoliikenteessä esiintyy merkkijono "nmap" isolla tai pienellä. Muuta nmap:n koodia niin, että tuo merkkijono ei enää näy verkkoliikenteessä.
+
+
+
+
+
+
 
 ## References
 
