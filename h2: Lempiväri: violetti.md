@@ -1,8 +1,13 @@
 x) Lue ja vastaa lyhyesti kysymyksiin.
 
-Selitä tuskan pyramidin idea 1-2 virkkeellä. Bianco 2013: Pyramid of Pain. (Katso eritoten pyramidin kuvaa.)
+1. Selitä tuskan pyramidi
 
-Selitä timanttimallin (Diamond Model) idea 1-2 virkkeellä. Tekijä esittelee sen aika juhlallisesti, voit myös etsiä yksinkertaisempia artikkeleita hakukoneella tai kelata suoraan timantin kuvaan. Caltagirone et al 2013: Diamond Model
+Tuskanpyramidin idea on korostaa sitä kuinka paljon haittaa aiheutetaan hyökkääjälle estämällä heitä. Mitä korkeammalla indikaattorityyppi on pyramiidissa sitä enemmän aikaa ja vaivaa hyökkääjän on käytettävä.
+
+2. Selitä timanttimallin (Diamond Model)
+
+Timanttimalli on malli jota käytetään kyberturvallisuuden ja eri hyökkäysten analysoinnissa. Hyäkkäys jaetaan neljään: Adversary, infrastructure, capability ja victim.
+
 
 # a) Apache log. Asenna Apache-weppipalvelin paikalliselle virtuaalikoneellesi. Surffaa palvelimellesi salaamattomalla HTTP-yhteydellä, http://localhost . 
 Etsi omaa sivulataustasi vastaava lokirivi. Analysoi yksi tällainen lokirivi, eli selitä sen kaikki kohdat. (Jos Apache ei ole kovin tuttu, voit tätä tehtävää varten vain asentaa sen ja testata oletusweppisivulla. Eli ei tarvitse tehdä omia kotisvuja tms.)
@@ -99,13 +104,36 @@ Kuvasta näkyy 338 saatu ja 25 oli "nmap".
 
 # g) Agentti. Vaihda nmap:n user-agent niin, että se näyttää tavalliselta weppiselaimelta.
 
+Alotin tutkimalla miten saisin vaihdettua useragentin että ses näyttäisi normaalilta webbiselaimelta ja löysin tämmöisen : 
+
+https://www.oreilly.com/library/view/nmap-network-exploration/9781786467454/62ae3cc1-af7b-4046-89c1-a6eaa6c0b759.xhtml
+
+        nmap -p80 --script http-sqli-finder --script-args http.useragent="Mozilla 42" <localhost> 
+
+Yritin kauan tätä mutta en saanut haluttua vastausta wiresharkin puolelta joten jatkan myöhemmin...
+
+
+
+
+
 # h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella. Tarkastele sekä Apachen lokia että siepattua verkkoliikennettä. Mikä on muuttunut, kun vaihdoit user-agent:n? Löytyykö lokista edelleen tekstijono "nmap"?
 
-# i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. 
-Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. 
+# i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. 
 (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
 
 # j) Vapaaehtoinen, vaikea: Invisible, invincible. Etsi jokin toinen nmap:n skripti, jonka verkkoliikenteessä esiintyy merkkijono "nmap" isolla tai pienellä. Muuta nmap:n koodia niin, että tuo merkkijono ei enää näy verkkoliikenteessä.
 
 ## References
+
+https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+
+https://www.oreilly.com/library/view/nmap-network-exploration/9781786467454/62ae3cc1-af7b-4046-89c1-a6eaa6c0b759.xhtml
+
+https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf
+
+https://duckduckgo.com/?t=ftsa&q=diamond+model+attacker+capability+infrastructure&ia=web
+
+https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html
+
+
