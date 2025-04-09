@@ -126,17 +126,24 @@ Huomasin että lokit olivat hiaman muuttuneet mutta siellä silti näkyi vielä 
 ![image](https://github.com/user-attachments/assets/53d15b94-340c-46bf-a9e3-f783edbd38e2)
 
 
-# i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. 
-(Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
-
-Jatkan tehtävää..
+# i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä.
 
 
+Aloitin greppaamalla "lowercheck" nmapin kansioista ja sieltä löytyi http.lua jossaon /nmaplowercheck :
 
+![image](https://github.com/user-attachments/assets/3bc80785-831b-4953-83a0-67607f1e0e9e)
 
+Lähdin etsimään tiedostosta lower checkkiä jonka jälkeen muokkasin ne omiksi nimiksi :
 
+![image](https://github.com/user-attachments/assets/ce64370a-c6bf-4473-a35e-f3116b73acbd)
 
+Huomasin että se vieläkin antaa nmappia tulokseksi joten lähdin etsimään tiedostosta " nmap scripting engine" ja vaihdoin sen "testi Scripting engine".
 
+![image](https://github.com/user-attachments/assets/8c6333d8-5915-4b22-955e-9983388be412)
+
+Muutosten jälkeen ei löytynyt enää "nmappia":
+
+![image](https://github.com/user-attachments/assets/52a1e3c5-33d9-4a4c-a2cb-d1155c8d12ac)
 
 
 ## References
