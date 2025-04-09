@@ -137,7 +137,7 @@ Lähdin etsimään tiedostosta lower checkkiä jonka jälkeen muokkasin ne omiks
 
 ![image](https://github.com/user-attachments/assets/ce64370a-c6bf-4473-a35e-f3116b73acbd)
 
-Huomasin että se vieläkin antaa nmappia tulokseksi joten lähdin etsimään tiedostosta " nmap scripting engine" ja vaihdoin sen "testi Scripting engine".
+Huomasin että se vieläkin antaa nmappia tulokseksi joten lähdin etsimään tiedostosta " nmap scripting engine" joka tuli kun etsi lokista nmapilla ja vaihdoin sen "testi Scripting engine".
 
 ![image](https://github.com/user-attachments/assets/8c6333d8-5915-4b22-955e-9983388be412)
 
