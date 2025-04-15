@@ -24,6 +24,14 @@ Sieltä kuului musiikkia joten olettaen tämä oli vissiin joku am-radiolähetys
 
 # b) rtl_433
 
+Aloitin asentamalla rtl_433 kalille:
+
+    sudo apt install rtl-433 #asentaa
+    rtl_433 #ajaa ohjelmaa
+        
+![image](https://github.com/user-attachments/assets/d8e5efbd-be43-4857-b4d8-7a2384e557c8)
+
+
 # c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
 
 # d) Too compex 16
