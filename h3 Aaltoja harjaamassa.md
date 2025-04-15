@@ -7,7 +7,7 @@ Cornelius 2022: Decode 433.92 MHz weather station data
 
 # a) WebSDR
 
-Aloitin menemällä http://websdr.org/ sivustolla ja valitsin sieltä ensimmäisen joka oli :
+Aloitin menemällä http://websdr.org/ sivustolle ja valitsin sieltä ensimmäisen joka oli :
 
 ![image](https://github.com/user-attachments/assets/babfceb4-2bd3-4374-af1e-b2f7e4cd2a3a)
 
