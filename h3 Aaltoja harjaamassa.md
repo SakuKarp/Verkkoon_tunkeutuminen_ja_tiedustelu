@@ -34,6 +34,14 @@ Aloitin asentamalla rtl_433 kalille:
 
 # c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
 
+Latasin Teron tiedoston ja menin Downloads kansioon jossa ajoin tiedoston 
+
+        rtl_433 Converted_433.92M_2000k.cs8
+
+        
+![image](https://github.com/user-attachments/assets/630e1602-16fb-4635-b6af-c92f13663dbe)
+
+
 # d) Too compex 16
 
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
