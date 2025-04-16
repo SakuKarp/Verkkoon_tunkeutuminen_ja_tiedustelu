@@ -2,7 +2,20 @@
 
 Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs (Video, alkaen 3:19 ja päättyen 7:40. Yhteensä noin 4 min.)
 
+- Signaalin kuunteleminen ja tallentaminen
+- Signaalin tutkiminen
+- Modulaatiot ASK,FSK,PSK
+- Automaattinen parametrien tutkiminen
+- Bittien pituus
+
+
+
 Cornelius 2022: Decode 433.92 MHz weather station data
+
+- Signaalien analysointiin voi käyttää URH:ta tai muita SDR-sovelluksia
+- ASK-modulaatio on yleinen ja helppo toteuttaa esimerkiksi Arduinolla
+- Signaalin dekoodaaminen
+
 
 
 # a) WebSDR
