@@ -61,7 +61,7 @@ Mallit: KlikAanKlikUit-Switch, Proove-Security ja Nexa-Security
 
 Komento : off
 
-Eli sain samat tiedot ulos tästä kuin edellisen tehtävästä.
+Eli sain samoja tietoja ulos tästä kuin edellisen tehtävästä.
 
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
