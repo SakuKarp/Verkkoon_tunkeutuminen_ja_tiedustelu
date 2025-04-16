@@ -122,10 +122,33 @@ Aika: 5.49 sekunttia
 
 # g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
-![Näyttökuva 2025-04-16 035130](https://github.com/user-attachments/assets/183f434c-947b-4503-a899-9722d15a2b5f)
+Aloitin tehtävän avaamalla tiedoston URH kautta. lähdin testaamaan eri modulaatioilla tiedostoa katsomalla bittien kautta mikä täsmää tähän tiedostoon.
 
 
-jatkuu....
+![1](https://github.com/user-attachments/assets/f617fe82-ad54-4171-a032-cbc17044a576)
+
+
+Tulokset kun katsoin bittien mukaan 1 ja 0:
+
+![bitit 1](https://github.com/user-attachments/assets/ac13d857-cc29-4e5d-91f5-1924160c3375)
+
+![bitit 0](https://github.com/user-attachments/assets/9cd071ed-bdd3-41c5-8b4a-5703fd16f060)
+
+
+Bittien mukaan se saa signaalin tai äänen 1 mukaan ja ei mitään kun on 0.
+
+kun valitsin tiedoston sain ajaksi 5.49 ja kun valitsin kaikki bitit se antoi ajaksi 5.42 en tiedä miksi.
+
+kuva demuloidusta missä näkyy bitit 1 ja 0:
+
+
+![demodul](https://github.com/user-attachments/assets/30666685-ec2b-4cf6-af90-08c7f3390336)
+
+
+yhden signaalin pituus noin 524 mikro sekunttia
+
+![1signaali](https://github.com/user-attachments/assets/4a6293a8-cb74-482f-b1f4-0a9543c5bf57)
+
 
 
 ## References:
