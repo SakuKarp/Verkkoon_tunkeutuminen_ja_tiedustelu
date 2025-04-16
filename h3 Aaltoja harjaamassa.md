@@ -109,6 +109,9 @@ Aika: 5.49 sekunttia
 
 # g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
+![Näyttökuva 2025-04-16 035130](https://github.com/user-attachments/assets/183f434c-947b-4503-a899-9722d15a2b5f)
+
+
 ## References:
 
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
