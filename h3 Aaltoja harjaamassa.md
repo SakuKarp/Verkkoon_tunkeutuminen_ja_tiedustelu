@@ -120,7 +120,7 @@ Aika: 5.49 sekunttia
 
 
 
-# g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
+# g) Bittistä
 
 Aloitin tehtävän avaamalla tiedoston URH kautta. lähdin testaamaan eri modulaatioilla tiedostoa katsomalla bittien kautta mikä täsmää tähän tiedostoon.
 
