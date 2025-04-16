@@ -53,7 +53,7 @@ Komento : off eli jotain ehkä suljetaan
 
 Aloitin lataamalla Teron tiedoston jonka jälkeen aloin muokkaamaan tiedosta jotta rtl_433 osaa lukea sitä.
 
-    mv Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s foo_433.92M_2000k.cs8 # muuttaa tiedosto nimen
+    mv Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s foo_433.92M_2000k.cs8 # muuttaa tiedosto nimen oikein luettavaksi
 
 Kuvasta näkee tunnisteen: 8785315
 
@@ -65,10 +65,31 @@ Eli sain samoja tietoja ulos tästä kuin edellisen tehtävästä.
 
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
+Aloitin asentamalla Teron ohjeita käyttäen:
 
-# f) Yleiskuva
+    sudo apt-get update
+    sudo apt-get -y install pipx
+    pipx install urh
+    pipx ensurepath
 
-# g) Bittistä
+Tuli ongelma ettei se antanut minun asentaa sitä joten lähdin tutkimaan mistä tämä voisi johtua.
+
+Löysin https://github.com/jopohl/urh/issues/1064 jossa oli ohje:
+
+    sudo apt-get install cython3
+    pipx install urh --system-site-packages
+
+Tämän jälkeen urh latautui normaalisti:
+
+![image](https://github.com/user-attachments/assets/d70403b1-3805-48b6-b403-586ebb06e6ad)
+
+![image](https://github.com/user-attachments/assets/40812407-8685-47a7-bf66-6a16fdeacce9)
+
+Aloitin tarkistelemaan Teron näytettä.
+
+# f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
+
+# g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
 ## References:
 
