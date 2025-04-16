@@ -51,6 +51,13 @@ Komento : off eli jotain ehkä suljetaan
 
 # d) Too compex 16
 
+Aloitin lataamalla Teron tiedoston jonka jälkeen aloin muokkaamaan tiedosta jotta rtl_433 osaa lukea sitä.
+
+    mv Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s foo_433.92M_2000k.cs8 # muuttaa tiedosto nimen
+
+
+
+
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
 
