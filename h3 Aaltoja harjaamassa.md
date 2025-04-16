@@ -89,6 +89,22 @@ Aloitin tarkistelemaan Teron näytettä.
 
 # f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
 
+![image](https://github.com/user-attachments/assets/4e38341d-9c2e-492b-a922-b7d5a92e7e59)
+
+Kohina: 0.0000
+
+Keskipiste: 0.1439
+
+Näytteet/symboli: 500
+
+Virhetoleranssi: 2
+
+Modulaatio: ASK
+
+Bitit/symboli: 1
+
+
+
 # g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
 ## References:
