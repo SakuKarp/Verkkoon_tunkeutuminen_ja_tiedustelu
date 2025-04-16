@@ -112,10 +112,19 @@ Aika: 5.49 sekunttia
 ![Näyttökuva 2025-04-16 035130](https://github.com/user-attachments/assets/183f434c-947b-4503-a899-9722d15a2b5f)
 
 
+jatkuu....
+
+
 ## References:
+
+http://websdr.org/
 
 https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
 
 https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s&ab_channel=hubmartin
 
 https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html
+
+https://github.com/jopohl/urh/issues/1064
+
+
