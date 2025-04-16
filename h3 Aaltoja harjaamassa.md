@@ -42,6 +42,13 @@ Latasin Teron tiedoston ja menin Downloads kansioon jossa ajoin tiedoston
 ![image](https://github.com/user-attachments/assets/630e1602-16fb-4635-b6af-c92f13663dbe)
 
 
+Kuvasta näkee tunnisteen: 8785315
+
+Mallit: KlikAanKlikUit-Switch, Proove-Security ja Nexa-Security
+
+Komento : off eli jotain ehkä suljetaan
+
+
 # d) Too compex 16
 
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
