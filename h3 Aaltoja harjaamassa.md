@@ -55,8 +55,13 @@ Aloitin lataamalla Teron tiedoston jonka jälkeen aloin muokkaamaan tiedosta jot
 
     mv Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s foo_433.92M_2000k.cs8 # muuttaa tiedosto nimen
 
+Kuvasta näkee tunnisteen: 8785315
 
+Mallit: KlikAanKlikUit-Switch, Proove-Security ja Nexa-Security
 
+Komento : off
+
+Eli sain samat tiedot ulos tästä kuin edellisen tehtävästä.
 
 # e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
