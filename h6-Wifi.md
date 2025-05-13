@@ -2,7 +2,10 @@
 
 # a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.
 
-Aloitin asentamalla WiFiChallenge Lab
+Aloitin asentamalla WiFiChallenge Labin VMWarelle : https://v1lab.wifichallenge.com/README sivuilta
+
+![image](https://github.com/user-attachments/assets/4b28d216-28a2-406d-a921-d61d25842a0b)
+
 
 # b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
