@@ -20,7 +20,7 @@ Ensimmäisten viiden tehtävän aikana sain aika hyvän perusymmärryksen siitä
 
 # c) Miten suhtautumisesi WLanin turvallisuuteen muuttui
 
-Suhtautuminen Wlanin turvallisuuteen ei muuttunut paljoa harjoitusten jälkeen. Olen suhteellisen tietoinen jo siitä, kuinka helposti langattomia verkkoja voidaan analysoida ja kuunnella.
+Suhtautuminen Wlanin turvallisuuteen ei muuttunut paljoa ainakaan näiden harjoitusten jälkeen. Olen suhteellisen tietoinen jo siitä, kuinka helposti langattomia verkkoja voidaan analysoida ja kuunnella.
 
 
 ## References
