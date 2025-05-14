@@ -1,15 +1,25 @@
 ## h6
 
-# a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.
+# a) wifi challenge lab
 
 Aloitin asentamalla WiFiChallenge Labin virtualboxille sivulta: https://lab.wifichallenge.com/README
 
-![image](https://github.com/user-attachments/assets/4b28d216-28a2-406d-a921-d61d25842a0b)
+![image](https://github.com/user-attachments/assets/7d63c1bd-3829-4e3b-a290-78ff88994037)
+
+Tämän jälkeen menin tehtävien pariin. 
+
+![image](https://github.com/user-attachments/assets/08f462b6-aef2-43bd-8ace-3f15aa5427e4)
 
 
-# b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
+# b) mitä opit ja mitkä asia yllättivät sinut
 
-# c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
+Ensimmäisten viiden tehtävän aikana sain aika hyvän perusymmärryksen siitä, miten langattomia verkkoja voidaan analysoida ja millaisia tietoja kerätään ilman että salauksia tarvitsee purkaa.
+
+
+# c) Miten suhtautumisesi WLanin turvallisuuteen muuttui
+
+Suhtautuminen Wlanin turvallisuuteen ei muuttunut paljoa harjoitusten jälkeen. Olen suhteellisen tietoinen jo siitä, kuinka helposti langattomia verkkoja voidaan analysoida ja kuunnella.
+
 
 ## References
 
