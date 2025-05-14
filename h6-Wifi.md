@@ -30,3 +30,4 @@ Walktrough: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/
 https://lab.wifichallenge.com/
 
 Larin luento materiaali #https://hhmoodle.haaga-helia.fi/pluginfile.php/4264753/mod_resource/content/1/01-WIFI.pdf
+
