@@ -10,6 +10,8 @@ Tämän jälkeen menin tehtävien pariin.
 
 ![image](https://github.com/user-attachments/assets/08f462b6-aef2-43bd-8ace-3f15aa5427e4)
 
+Tulen jatkamaan vielä tehtäviä....
+
 
 # b) mitä opit ja mitkä asia yllättivät sinut
 
